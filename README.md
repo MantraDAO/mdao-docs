@@ -1,4 +1,8 @@
-# Website
+# MANTRA DAO Documentation
+
+Official documentation for the MANTRA DAO platform
+
+## Website
 
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
