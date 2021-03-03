@@ -1,14 +1,22 @@
-name: CI
+name: Deploy to production environment
 
-on: [push, pull_request]
+on:
+  push:
+    tags:
+      - v*
 
 env:
-  NODE_ENV: CI
+  NODE_ENV: PROD
 
 jobs:
-  build:
+  build-and-deploy:
     name: Build
     runs-on: ubuntu-latest
+
+    env:
+      AWS_REGION: ap-southeast-2
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 
     strategy:
       matrix:
@@ -22,7 +30,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Cache `node_modules/`
+      - name: Cache node modules
         uses: actions/cache@v2
         env:
           cache-name: cache-node-modules
@@ -36,6 +44,14 @@ jobs:
 
       - run: npm ci
 
-      # - run: npm run audit:check
-
       - run: npm run build
+
+      - name: Deploy to AWS S3
+        uses: reggionick/s3-deploy@v3
+        with:
+          folder: build/
+          bucket: ${{ secrets.S3_BUCKET_PROD }}
+          bucket-region: ${{ secrets.S3_BUCKET_REGION }}
+          dist-id: ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID_PROD }}
+          invalidation: /
+          delete-removed: true
