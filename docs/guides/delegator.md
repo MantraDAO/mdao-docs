@@ -36,3 +36,5 @@ With your wallet set to the Binance Smart Chain network, complete the final link
 Congratulations, you are linked!
 
 ![](../../static/img/delegator/atom/interface8.png)
+
+Check back in roughly a month to see your OM rewards.
