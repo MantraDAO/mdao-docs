@@ -16,9 +16,12 @@ Any Cosmos wallet can be used to delegate to the MANTRA DAO node.
 
 - Keplr (Web)
 - Cosmos Station (IOS/Android)
+- Others (that support delegating)
 
 On your Cosmos wallet's 'delegate' page, find the MANTRA DAO node or find it's details here.
 https://www.mintscan.io/cosmos/validators/cosmosvaloper103agss48504gkk3la5xcg5kxplaf6ttnuv234h
+
+Delegate the desired amount of ATOM to the MANTRA DAO node, our web app will tell you if it sees your delegation.
 
 --
 
@@ -57,3 +60,15 @@ Congratulations, you are linked!
 ![](../../static/img/delegator/atom/interface8.png)
 
 Check back in roughly a month to see your OM rewards.
+
+--
+
+Troubleshooting
+
+Q. The MANTRA DAO web app says im not delegating but i am.
+
+A. Our indexer might be running behind, come back and check in a little while.
+
+Q. The linking system is taking a long time to detect my transaction.
+
+A. Double check the amount you sent matches link request amount, and check the ATOM address you sent it from was the one you specified to link. If both of those are correct, our indexer might be running behind, come back and check in a little while.
