@@ -3,7 +3,23 @@ id: delegator
 title: Delegator Rewards
 ---
 
-Navigate to the delegator rewards section of the MANTRA DAO web app. https://app.mantradao.com/delegator
+How to Earn Delegator Rewards
+
+Prerequisites :
+
+- Have a Cosmos Wallet
+- Have a Binance Smart Chain Compatible Wallet
+- Be actively delegating the MANTRA DAO Cosmos validator node
+- Fractional amounts BNB & ATOM assets to complete the linking process
+
+Any Cosmos wallet can be used to delegate to the MANTRA DAO node.
+
+On your Cosmos wallet's 'delegate' page, find the MANTRA DAO node or find it's details here.
+https://www.mintscan.io/cosmos/validators/cosmosvaloper103agss48504gkk3la5xcg5kxplaf6ttnuv234h
+
+--
+
+After delegating ATOM to the MANTRA DAO node navigate to the delegator rewards section of the MANTRA DAO web app. https://app.mantradao.com/delegator
 
 ![](../../static/img/delegator/atom/interface1.png)
 
