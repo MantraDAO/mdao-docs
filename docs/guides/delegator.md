@@ -14,6 +14,9 @@ Prerequisites :
 
 Any Cosmos wallet can be used to delegate to the MANTRA DAO node.
 
+- Keplr (Web)
+- Cosmos Station (IOS/Android)
+
 On your Cosmos wallet's 'delegate' page, find the MANTRA DAO node or find it's details here.
 https://www.mintscan.io/cosmos/validators/cosmosvaloper103agss48504gkk3la5xcg5kxplaf6ttnuv234h
 
