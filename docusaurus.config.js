@@ -1,49 +1,46 @@
 module.exports = {
-  title: 'MANTRA DAO Docs',
-  tagline: 'Official documentation for MANTRA DAO, the community-governed DeFi platform focusing on Staking, Lending, and Governance.',
-  url: 'https://mantra-dao-docs.netlify.app',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'MANTRA DAO', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
-  stylesheets: ['https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap',
-  'https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap'
+  title: "MANTRA DAO Docs",
+  tagline:
+    "Official documentation for MANTRA DAO, the community-governed DeFi platform focusing on Staking, Lending, and Governance.",
+  url: "https://mantra-dao-docs.netlify.app",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
+  organizationName: "MANTRA DAO", // Usually your GitHub org/user name.
+  projectName: "docs", // Usually your repo name.
+  stylesheets: [
+    "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
+    "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap",
   ],
   plugins: [
-    require.resolve('docusaurus-lunr-search'),
-    require.resolve('plugin-image-zoom')
+    require.resolve("docusaurus-lunr-search"),
+    require.resolve("plugin-image-zoom"),
   ],
   themeConfig: {
     navbar: {
-      title: 'MANTRA DAO Docs',
+      title: "MANTRA DAO Docs",
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: "My Site Logo",
+        src: "img/logo.svg",
       },
       items: [
         {
-          to: 'about/intro',
-          label: 'About',
-          position: 'left',
+          to: "about/intro",
+          label: "About",
+          position: "left",
         },
         {
-          to: 'guides/intro',
-          label: 'Guides',
-          position: 'left',
+          to: "guides/intro",
+          label: "Guides",
+          position: "left",
         },
         {
-          to: 'developers/intro',
-          label: 'Devs',
-          position: 'left',
+          to: "knowledge/intro",
+          label: "Knowledge Base",
+          position: "left",
         },
-        {
-          to: 'knowledge/intro',
-          label: 'Knowledge Base',
-          position: 'left',
-        },
-        {to: 'updates', label: 'Updates', position: 'left'},
+        { to: "updates", label: "Updates", position: "left" },
         // {
         //   label: 'Lang',
         //   position: 'left',
@@ -62,133 +59,133 @@ module.exports = {
         //   ],
         // },
         {
-          href: 'https://github.com/mantradao',
-          label: 'GitHub',
-          position: 'right',
+          href: "https://github.com/mantradao",
+          label: "GitHub",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'HOME PAGE',
+          title: "HOME PAGE",
           items: [
             {
-              label: 'About Us',
-              href: 'https://mantradao.com/about-us',
+              label: "About Us",
+              href: "https://mantradao.com/about-us",
             },
             {
-              label: 'Key Features',
-              href: 'https://mantradao.com/#key-features',
+              label: "Key Features",
+              href: "https://mantradao.com/#key-features",
             },
             {
-              label: 'Partners',
-              href: 'https://mantradao.com/#partners',
+              label: "Partners",
+              href: "https://mantradao.com/#partners",
             },
             {
-              label: 'Roadmap',
-              href: 'https://mantradao.com/#roadmap',
-            },    
-            {
-              label: 'Governance',
-              href: 'https://snapshot.page/#/mantra-dao/all',
-            }, 
-            {
-              label: 'OM',
-              href: 'https://data.mantradao.com/',
-            }, 
-            {
-              label: 'Careers',
-              href: 'https://mantradao.com/careers',
-            }, 
-          ],
-        },
-        {
-          title: 'DOCUMENTS',
-          items: [
-            {
-              label: 'Whitepaper',
-              href: 'https://mantradao.com/files/MANTRA_DAO_Whitepaper.pdf',
+              label: "Roadmap",
+              href: "https://mantradao.com/#roadmap",
             },
             {
-              label: 'Pitch Deck',
-              href: 'https://mantradao.com/files/MANTRA_DAO_PITCHDECK.pdf',
+              label: "Governance",
+              href: "https://snapshot.page/#/mantra-dao/all",
             },
             {
-              label: 'Privacy Policy',
-              href: 'https://mantradao.com/privacy-policy',
+              label: "OM",
+              href: "https://data.mantradao.com/",
             },
             {
-              label: 'Terms of Use',
-              href: 'https://mantradao.com/terms-of-use',
-            },    
-          ],
-        },
-        {
-          title: 'COMMUNITY',
-          items: [
-            {
-              label: 'GitHub',
-              href: 'https://github.com/Mantradao',
-            },
-            {
-              label: 'Blog',
-              href: 'https://mantradao.com/blog',
-            },
-            {
-              label: 'Brand Assets',
-              href: 'https://mantradao.com/brand-assets',
-            },
-            {
-              label: 'Sherpas',
-              href: 'https://mantradao.com/sherpas',
-            }, 
-            {
-              label: 'Sherpawear',
-              href: 'https://sherpawear.mantradao.com/',
-            },     
-          ],
-        },
-        {
-          title: 'SOCIAL MEDIA',
-          items: [
-            {
-              label: 'Facebook',
-              href: 'https://facebook.com/mantradao/',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/MANTRADAO',
-            },
-            {
-              label: 'LinkedIn',
-              href: 'https://www.linkedin.com/company/mantradao',
-            },
-            {
-              label: 'Telegram',
-              href: 'https://t.me/MANTRADAO',
-            },
-            {
-              label: 'Weibo',
-              href: 'https://weibo.com/7478990664/profile?rightmod=1&wvr=6&mod=personinfo',
-            },
-            {
-              label: 'Medium',
-              href: 'https://medium.com/mantra-dao',
-            },
-            {
-              label: 'YouTube',
-              href: 'https://www.youtube.com/c/MANTRADAO',
-            },
-            {
-              label: 'Instagram',
-              href: 'https://www.instagram.com/mantradaoofficial/',
+              label: "Careers",
+              href: "https://mantradao.com/careers",
             },
           ],
         },
         {
-          
+          title: "DOCUMENTS",
+          items: [
+            {
+              label: "Whitepaper",
+              href: "https://mantradao.com/files/MANTRA_DAO_Whitepaper.pdf",
+            },
+            {
+              label: "Pitch Deck",
+              href: "https://mantradao.com/files/MANTRA_DAO_PITCHDECK.pdf",
+            },
+            {
+              label: "Privacy Policy",
+              href: "https://mantradao.com/privacy-policy",
+            },
+            {
+              label: "Terms of Use",
+              href: "https://mantradao.com/terms-of-use",
+            },
+          ],
+        },
+        {
+          title: "COMMUNITY",
+          items: [
+            {
+              label: "GitHub",
+              href: "https://github.com/Mantradao",
+            },
+            {
+              label: "Blog",
+              href: "https://mantradao.com/blog",
+            },
+            {
+              label: "Brand Assets",
+              href: "https://mantradao.com/brand-assets",
+            },
+            {
+              label: "Sherpas",
+              href: "https://mantradao.com/sherpas",
+            },
+            {
+              label: "Sherpawear",
+              href: "https://sherpawear.mantradao.com/",
+            },
+          ],
+        },
+        {
+          title: "SOCIAL MEDIA",
+          items: [
+            {
+              label: "Facebook",
+              href: "https://facebook.com/mantradao/",
+            },
+            {
+              label: "Twitter",
+              href: "https://twitter.com/MANTRADAO",
+            },
+            {
+              label: "LinkedIn",
+              href: "https://www.linkedin.com/company/mantradao",
+            },
+            {
+              label: "Telegram",
+              href: "https://t.me/MANTRADAO",
+            },
+            {
+              label: "Weibo",
+              href:
+                "https://weibo.com/7478990664/profile?rightmod=1&wvr=6&mod=personinfo",
+            },
+            {
+              label: "Medium",
+              href: "https://medium.com/mantra-dao",
+            },
+            {
+              label: "YouTube",
+              href: "https://www.youtube.com/c/MANTRADAO",
+            },
+            {
+              label: "Instagram",
+              href: "https://www.instagram.com/mantradaoofficial/",
+            },
+          ],
+        },
+        {
           items: [
             {
               html: `
@@ -217,17 +214,17 @@ module.exports = {
         },
       ],
       logo: {
-        alt: 'MANTRA DAO logo',
-        src: 'img/mdao_wht.svg',
-        href: 'https://mantradao.com/',
+        alt: "MANTRA DAO logo",
+        src: "img/mdao_wht.svg",
+        href: "https://mantradao.com/",
       },
       copyright: `Copyright © ${new Date().getFullYear()} MANTRA DAO Foundation`,
     },
-  
+
     // ...
     colorMode: {
       // "light" | "dark"
-      defaultMode: 'dark',
+      defaultMode: "dark",
 
       // Hides the switch in the navbar
       // Useful if you want to support a single color mode
@@ -240,48 +237,45 @@ module.exports = {
       // Dark/light switch icon options
       switchConfig: {
         // Icon for the switch while in dark mode
-        darkIcon: '🌙',
+        darkIcon: "🌙",
 
         // CSS to apply to dark icon,
         // React inline style object
         // see https://reactjs.org/docs/dom-elements.html#style
         darkIconStyle: {
-          marginLeft: '2px',
+          marginLeft: "2px",
         },
 
         // Unicode icons such as '\u2600' will work
         // Unicode with 5 chars require brackets: '\u{1F602}'
-        lightIcon: '\u{1F602}',
+        lightIcon: "\u{1F602}",
 
         lightIconStyle: {
-          marginLeft: '1px',
+          marginLeft: "1px",
         },
       },
     },
     // ...
-  
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          path: './docs',
-          routeBasePath: '/',
-          editUrl:
-            'https://github.com/mantradao',
+          path: "./docs",
+          routeBasePath: "/",
+          editUrl: "https://github.com/mantradao",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://mantradao.com/blog/',
-          routeBasePath: 'updates',
+          editUrl: "https://mantradao.com/blog/",
+          routeBasePath: "updates",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],

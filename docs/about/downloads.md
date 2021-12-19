@@ -3,11 +3,6 @@ id: downloads
 title: Downloads
 ---
 
-### Applications
-
-[Android Wallet](https://app.mantradao.com/apps/android/MantraDAO-Wallet.apk)
-
-
 ### Brand Assets
 
 [Dark MANTRA DAO Logo Pack](https://mantradao.com/assets/MANTRA%20DAO%20BLK.zip)

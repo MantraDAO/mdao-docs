@@ -31,14 +31,8 @@ module.exports = {
           ],
         },
         {
-          Lending: [
-            "knowledge/lending/history",
-            "knowledge/lending/liquidation",
-            "knowledge/lending/risks",
-            "knowledge/lending/aggregators",
-          ],
+          Lending: ["knowledge/lending/history"],
         },
-        "knowledge/dexes/intro",
         "knowledge/lending/history",
       ],
     },
@@ -70,14 +64,6 @@ module.exports = {
         "guides/staking/buy",
         "guides/staking/kusama",
       ],
-    },
-  ],
-  Devs: [
-    {
-      type: "category",
-      label: "Intro",
-      collapsed: false,
-      items: ["developers/intro"],
     },
   ],
 };
