@@ -7,6 +7,10 @@ title: FAQ
 
 MANTRA DAO leverages the wisdom of the crowd to create a community-governed, transparent, and decentralized ecosystem for web 3.0. Built on Parity Substrate based RioChain for the Polkadot ecosystem, MANTRA DAO gives financial control back to the people to store and grow wealth together. Essentially, we are building a community-governed DAO structure for DeFi products. Primarily focusing on Staking, Lending, and Governance. We will offer enhanced interest for our users and governance rights through our native OM TOKEN.
 
+## What is a DAO?
+
+DAOs, otherwise known as Decentralized Autonomous Organizations, represent a massive upgrade on the traditional firm. DAOs use blockchain technology and programmable incentives to solve issues traditionally faced by global organizations, such as financial transparency, process automation, governance, and aligning geographically-separated, individual stakeholders in pursuit of a common goal. By combining state-of-the-art technology with new token economic, governance, and financial models, DAOs can provide substantial benefits for their members. With DAOs, communities are able to leverage the strengths of all members, turning them into active stakeholders to grow the network together.
+
 ## What are the uses of OM TOKENs?
 
 OM TOKENs are the native cryptocurrency of MANTRA DAO. OM TOKENs plays a key role in expanding and maintaining the overall MANTRA DAO ecosystem. It has several core functions:
@@ -110,7 +114,3 @@ The security of cryptocurrency assets is one of the most important elements in t
 As security is of the utmost importance for us, MANTRA DAO will focus on offering non-custodial services for its initial staking business line through Delegated Proof of Stake (DPoS) tokens. By utilizing and working with cryptocurrencies that are DPoS, MANTRA DAO is able to greatly reduce security risk as it will not be handling any of its members’ digital assets, having them remain at all times in the members’ custody. As additional tokens are offered that are Proof of Stake (PoS), we will maintain these through industry-leading security solutions.
 
 The MANTRA DAO Foundation's assets are held and stored by its partner, Hex Trust. Hex Trust is a licensed and insured custody provider, and one of Asia’s leading institutional digital asset custody provider. The MANTRA DAO team will contiue to work with the Hex Trust team to integrate more custody solutions into the ecosystem as more services are rolled out. Read more about their partnership [here](https://medium.com/mantra-dao/uncompromising-security-over-users-assets-90ddaaf1e796).
-
-## What is a DAO?
-
-DAOs, otherwise known as Decentralized Autonomous Organizations, represent a massive upgrade on the traditional firm. DAOs use blockchain technology and programmable incentives to solve issues traditionally faced by global organizations, such as financial transparency, process automation, governance, and aligning geographically-separated, individual stakeholders in pursuit of a common goal. By combining state-of-the-art technology with new token economic, governance, and financial models, DAOs can provide substantial benefits for their members. With DAOs, communities are able to leverage the strengths of all members, turning them into active stakeholders to grow the network together.

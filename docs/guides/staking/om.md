@@ -1,13 +1,17 @@
 ---
 id: om
 title: Staking OM
---- 
+---
 
 #### How to Stake OM
 
 We’ve developed an easy to use interface to make the experience as effortless as possible, so earning daily passive rewards is as easy as just a few clicks of a button!
 
-Access the MANTRA DAO platform at: [app.mantradao.com](https://app.mantradao.com/staking)
+Access the latest MANTRA DAO platform at: [app.mantradao.com](https://app.mantradao.com/staking)
+
+or access the legacy MANTRA DAO platform at: [legacy.mantradao.com](https://legacy.mantradao.com/staking)
+
+This guide is based on legacy staking user interface, but the proccess is the same.
 
 1. In order to start staking you must first connect your web wallet:
 
@@ -34,5 +38,3 @@ Access the MANTRA DAO platform at: [app.mantradao.com](https://app.mantradao.com
 7. Once you have confirmed the staking transaction on your web wallet, you are officially staked and will begin enjoying your daily passive rewards!
 
 ![](https://cdn-images-1.medium.com/max/2000/0*Hjm2EMj15e-V6COb)
-
-
