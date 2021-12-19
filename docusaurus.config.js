@@ -40,7 +40,6 @@ module.exports = {
           label: "Knowledge Base",
           position: "left",
         },
-        { to: "updates", label: "Updates", position: "left" },
         // {
         //   label: 'Lang',
         //   position: 'left',
@@ -267,12 +266,6 @@ module.exports = {
           path: "./docs",
           routeBasePath: "/",
           editUrl: "https://github.com/mantradao",
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl: "https://mantradao.com/blog/",
-          routeBasePath: "updates",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

@@ -7,11 +7,11 @@ module.exports = {
       items: [
         "about/intro",
         "about/om-token",
+        "about/governance",
+        "about/exchanges",
+        "about/partners",
         "about/downloads",
         "about/documents",
-        "about/exchanges",
-        "about/governance",
-        "about/partners",
         "about/faq",
       ],
     },
@@ -33,7 +33,6 @@ module.exports = {
         {
           Lending: ["knowledge/lending/history"],
         },
-        "knowledge/lending/history",
       ],
     },
   ],
