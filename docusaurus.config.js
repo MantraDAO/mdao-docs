@@ -40,23 +40,6 @@ module.exports = {
           label: "Knowledge Base",
           position: "left",
         },
-        // {
-        //   label: 'Lang',
-        //   position: 'left',
-        //   items: [
-        //     {
-        //       label: 'EN',
-        //       href: '/',
-        //       target: ''
-        //     },
-        //     {
-        //       label: 'CN',
-        //       href: 'cn-placeholder',
-        //       target: ''
-        //     },
-        //     // ... more items
-        //   ],
-        // },
         {
           href: "https://github.com/mantradao",
           label: "GitHub",
