@@ -96,11 +96,11 @@ module.exports = {
             },
             {
               label: "Privacy Policy",
-              href: "https://mantradao.com/privacy-policy",
+              href: "https://www.mantra.finance/legal/privacy-policy",
             },
             {
               label: "Terms of Use",
-              href: "https://mantradao.com/terms-of-use",
+              href: "https://www.mantra.finance/legal/terms-of-use",
             },
           ],
         },
